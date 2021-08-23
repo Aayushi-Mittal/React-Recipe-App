@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Recipe Search 🍕</h1>
+      <h1>Recipe Search</h1>
       <input
         type="search"
         placeholder="Search a recipe"
@@ -38,9 +38,9 @@ const App = () => {
           title={r.recipe.label}
           image={r.recipe.image}
           url={r.recipe.url}
-          // dishType={r.recipe.dishType[0]}
-          // mealType={r.recipe.mealType[0]}
-          // cuisineType={r.recipe.cuisineType[0]}
+          dishType={r.recipe.dishType[0]}
+          mealType={r.recipe.mealType[0]}
+          cuisineType={r.recipe.cuisineType[0]}
         />
       ))}
     </div>

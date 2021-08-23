@@ -29,7 +29,7 @@ body {
   background-color: #ffc09f;
   margin: 50px auto;
   height: auto;
-  max-width: 330px;
+  max-width: 450px;
   min-width: 320px;
   box-shadow: 0 2px 5px #ccc;
   text-align: center;
@@ -47,17 +47,21 @@ a {
   color: black;
 }
 
-.btn {
-  border-radius: 6px;
-  padding: 5px;
-}
 .badges {
   list-style: none;
+  text-align: center;
 }
+
 .badge {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding: 6px;
-  margin-right: 5px;
-  float: right;
+  padding: 5px;
+  margin: 2px 5px 2px 0;
+  float: left;
+}
+
+.btn {
+  margin-top: 6px;
+  border-radius: 6px;
+  padding: 5px;
 }

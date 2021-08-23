@@ -11,14 +11,16 @@ const Recipe = (props) => {
         <a href="props.url">
           <h2>{props.title}</h2>
         </a>
-        {/* <ul className="badges">
-          <li className="badge">{props.dishType}</li>
-          <li className="badge">{props.mealType}</li>
-          <li className="badge">{props.cuisineType}</li>
-        </ul> */}
-        <a href={props.url}>
-          <button className="btn">See More...</button>
-        </a>
+        {/* <div className="badges">
+          <span className="badge">{props.dishType}</span>
+          <span className="badge">{props.cuisineType}</span>
+          <span className="badge">{props.mealType}</span>
+        </div> */}
+        <div>
+          <a href={props.url}>
+            <button className="btn">Check Recipe</button>
+          </a>
+        </div>
       </div>
     </div>
   );
