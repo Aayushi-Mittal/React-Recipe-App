@@ -1,0 +1,63 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  background: #fcf5c7;
+}
+
+.search {
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  background-color: rgb(223, 223, 223);
+  display: inline-block;
+}
+
+.list {
+  float: left;
+  display: flex;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 25px;
+  background-color: #ffc09f;
+  margin: 50px auto;
+  height: auto;
+  max-width: 330px;
+  min-width: 320px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: center;
+  display: flex;
+}
+
+.img {
+  height: 180px;
+  border-radius: 10%;
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 5px;
+}
+.badges {
+  list-style: none;
+}
+.badge {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 6px;
+  margin-right: 5px;
+  float: right;
+}
