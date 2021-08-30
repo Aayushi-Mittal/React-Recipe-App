@@ -1,6 +1,6 @@
 const API = {
-  APP_ID: "5e329f46",
-  APP_KEY: "9b781959c16ef7b63acb38e1c61dde6b",
+  APP_ID: "",
+  APP_KEY: "",
   ROOT_URL: "https://api.edamam.com"
 };
 
